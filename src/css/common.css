@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.color-switcher {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 100px;
+  height: 40px;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  background-color: transparent;
+  border: 2px solid #3498db;
+  border-radius: 0.6em;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.switcher-color {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  width: 100px;
+  height: 40px;
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  background-color: transparent;
+  border: 2px solid #3498db;
+  border-radius: 0.6em;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.color-switcher:hover,
+.switcher-color:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  color: #212121;
+}
