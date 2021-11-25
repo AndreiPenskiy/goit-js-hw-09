@@ -60,3 +60,16 @@ img {
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
   color: #212121;
 }
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
